@@ -1,16 +1,14 @@
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
 
+html{
+	height:200px;
+	display: block;
+}
 body {
 	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	line-height: 1.4em;
 	background: #eeeeee;
 	color: #333333;
-	width: 520px;
-	margin: 0 auto;
+	height:200px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -23,8 +21,10 @@ input{
 	margin-top: 10px;
 
 }
+
 #sendPage,#receivePage{
    box-shadow: 1px 1px 2px #cacaca;
+   display: inline-block;
 }
 #receiveMain
 {
@@ -53,6 +53,9 @@ Buttons
 	box-shadow: 1px 1px 3px #AAA;
 	color:white;
 }
+.link{
+	display: inline-block;
+}
 /*
 Tabs
 */
@@ -80,5 +83,32 @@ input boxes
 */
 #inputAddress,#inputAmount{
 	width:200px;
+}
+/*
+select css
+*/
+select{
+	-webkit-appearance: none;
+  -webkit-border-radius: 0px;
+width: 200px;
+height: 20px;
+line-height: 20px;
+color: #999;
+font-weight: 700;
+background: #fff;
+display: block;
+padding: 0 50px 0 30px;
+position: relative;
+cursor: pointer;
+box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+option{
+	background: #fff;
+line-height: 60px;
+padding: 0 30px 0 75px;
+display: block;
+color: #bcbcbc;
+cursor: pointer;
+font-weight: 700;
 }
 
