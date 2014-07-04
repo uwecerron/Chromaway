@@ -1,0 +1,11 @@
+{
+  "name": "Chromaway",
+  "version": "0.0.1",
+  "description": "Bitcoin Colored Coins Wallet",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "images/icon128.png",
+    "default_title": "Chromaway",
+    "default_popup": "index.html"
+  }
+}
