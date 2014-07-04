@@ -7,5 +7,9 @@
     "default_icon": "images/icon128.png",
     "default_title": "Chromaway",
     "default_popup": "index.html"
-  }
+  },
+   "icons": {
+    "128": "images/icon128.png"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

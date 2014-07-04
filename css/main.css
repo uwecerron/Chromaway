@@ -1,0 +1,84 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.4em;
+	background: #eeeeee;
+	color: #333333;
+	width: 520px;
+	margin: 0 auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+input{
+    color: #3a3a3a;
+	border-radius: 3px;
+	border: 1px solid #cacaca;
+	padding: 5px;
+	height: 30px;
+	margin-top: 10px;
+
+}
+#sendPage,#receivePage{
+   box-shadow: 1px 1px 2px #cacaca;
+}
+#receiveMain
+{
+	padding: 5px;
+	font-size: 11px;
+	background-color: #FFF;
+	border-radius: 3px;
+	margin-top: 10px;
+	text-align: center;
+}
+#balanceBox{
+	float:right;
+}
+/*
+Buttons
+*/
+#sendButton,#receiveButton
+{
+	background-color: #A9A9A9;
+	border-radius: 5px;
+    padding: 6px;
+	font-size: 10px;
+	width: 120px;
+	height: 36px;
+	line-height: 12px;
+	box-shadow: 1px 1px 3px #AAA;
+	color:white;
+}
+/*
+Tabs
+*/
+#sendTab, #receiveTab
+{
+	padding: 6px;
+	border-radius: 5px;
+	font-color:#000;
+	font-size: 14px;
+	background-color: #DDD;
+	width: 35px;
+	text-align: center;
+	cursor: pointer;
+	height: 20px;
+
+}
+
+#tabs div.selected
+{
+	background-color: #cacaca;;
+}
+
+/*
+input boxes
+*/
+#inputAddress,#inputAmount{
+	width:200px;
+}
+

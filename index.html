@@ -1,9 +1,35 @@
-<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>herrro</title>
-  </head>
-  <body>
-    <h1>popup</h1>
-  </body>
+<head>
+<link href="css/main.css" type="text/css" rel="stylesheet" />
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+	<div id="tabs">
+        <div class="fa fa-btc" id="sendTab" class="selected"></div>
+		<div class="fa fa-inbox" id="receiveTab"></div>
+		<div class="fa fa-suitcase" id="receiveTab"></div>
+		<div class="fa fa-wrench" id="receiveTab"></div>	
+	</div>
+	<div  id="sendPage">
+		<div id="balanceBox">BTC: 0</div>
+		<div class="title">Send</div>				
+		<div id="addresses"></div>
+		<input type="text" placeholder="Address" id="inputAddress" >  
+		<input type="text" placeholder="Amount to Send" id="inputAmount"> 
+		<button id="sendButton">Send</button>		
+	</div>
+	
+	<div id="receivePage">
+		<div class="title">Receive</div>	
+			<div id="receiveMain">
+			<div id="addressTitle">Your Address:></div>
+			<div id="address">address</div>
+		    <button id="receiveButton">Generate Address</button>	
+		</div>
+	</div>   
+</body>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+
 </html>
