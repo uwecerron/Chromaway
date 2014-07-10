@@ -22,18 +22,18 @@ input{
 
 }
 
-#sendPage,#receivePage{
+#sendPage,#receivePage,#assetsPage,#settingsPage{
    box-shadow: 1px 1px 2px #cacaca;
-   display: inline-block;
+   width:200px;
 }
 #receiveMain
 {
-	padding: 5px;
+	/*padding: 5px;
 	font-size: 11px;
 	background-color: #FFF;
 	border-radius: 3px;
 	margin-top: 10px;
-	text-align: center;
+	text-align: center;*/
 }
 #balanceBox{
 	float:right;
@@ -59,12 +59,12 @@ Buttons
 /*
 Tabs
 */
-#sendTab, #receiveTab
+#sendTab, #receiveTab,#assetsTab,#settingsTab
 {
-	padding: 6px;
+	padding: 2px;
 	border-radius: 5px;
 	font-color:#000;
-	font-size: 14px;
+	font-size: 17px;
 	background-color: #DDD;
 	width: 35px;
 	text-align: center;

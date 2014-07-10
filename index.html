@@ -3,17 +3,15 @@
 <head>
 <link href="css/main.css" type="text/css" rel="stylesheet" />
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-<script src="vendor/jquery-1.11.0.min.js"></script>
-<script src="vendor/underscore-min.js"></script>
-<script src="vendor/backbone-min.js"></script>
+
 
 </head>
 <body>
 	<div id="tabs">
         <div class="link" id="sendTab" title="sendPage"><span class="fa fa-btc"></span></div>
 		<div class="link" id="receiveTab" title="receivePage"><span class="fa fa-inbox"></span></div>
-		<div class="fa fa-suitcase" id="receiveTab"></div>
-		<div class="fa fa-wrench" id="receiveTab"></div>	
+		<div class="link" id="assetsTab" title="assetsPage"><span class="fa fa-suitcase"></span></div>
+		<div class="link" id="settingsTab" title="settingsPage"><span class="fa fa-wrench"></span></div>	
 	</div>
 	<div class="box"  id="sendPage">
 		<div id="balanceBox">BTC: 0</div>
@@ -47,10 +45,29 @@
 		    <button id="receiveButton">Generate Address</button>	
 		</div>
 	</div>
+		<div class="box" id="assetsPage">
+		<div class="title">Receive</div>	
+		    <input type="text" placeholder="Issue Assets" id="inputAsset" >  
+			<div>Your Address:></div>
+			<div id="address">address</div>
+			<button id="sendButton">Add Assets</button>	
+		    <button id="receiveButton">Generate Address</button>	
+	</div>
+		<div class="box" id="settingsPage">
+		<div class="title">Change Password</div>	
+		    <input type="text" placeholder="Current Password" id="inputAsset">  
+			<div>New Password:></div>
+			 <input type="text" placeholder="New Password" id="inputAsset">  
+			 <input type="text" placeholder="Confirm Password" id="inputAsset">
+			 <button id="receiveButton">Confirm Password</button>	  
+
+	</div>
 
 </body>
 
-
+<script src="vendor/jquery-1.11.0.min.js"></script>
+<script src="vendor/underscore-min.js"></script>
+<script src="vendor/backbone-min.js"></script>
 <script src="js/tabs.js"></script>
 <script src="js/Wallet.js"></script>
 
